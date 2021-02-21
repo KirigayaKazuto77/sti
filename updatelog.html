@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Edit Log - Employee Payroll</title>
+</head>
+
+
+<body>
+
+	<button onclick="document.location='index.html'">Home</button>
+	<br>
+	<br>
+
+<h1>Edit Time IN Employee</h1>
+
+<form action="edittimein.php" method="post">
+	<label for="EmpID">Employee ID No.:</label>
+  		<input type="number" id="EmpID" name="EmpID" required><br>
+  	<label for="DateIn">Date IN:</label>
+  		<input type="Date" id="DateIn" name="DateIn" required><br>
+  	<label for="TimeIn">Time IN:</label>
+  		<input type="Time" id="TimeIn" name="TimeIn" required>><br><br> 	
+
+  	<input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+<h1>Edit Time OUT Employee</h1>
+
+<form action="edittimeout.php" method="post">
+  <label for="EmpID">Employee ID No.:</label>
+      <input type="number" id="EmpID" name="EmpID" required><br>
+    <label for="DateOut">Date OUT:</label>
+      <input type="Date" id="DateOut" name="DateOut" required><br>
+    <label for="TimeOut">Time OUT:</label>
+      <input type="Time" id="TimeOut" name="TimeOut" required>><br><br>   
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

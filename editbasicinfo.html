@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Edit Basic Info - Employee Payroll</title>
+</head>
+
+
+<body>
+
+	<button onclick="document.location='index.html'">Home</button>
+	<br>
+	<br>
+
+<h1>Edit Basic Info of the Employee</h1>
+<br>
+<br>
+
+<h3>Edit First Name</h3>
+<form action="editfirstname.php" method="post">
+  <label for="EmpID">Employee ID No.:</label>
+      <input type="number" id="EmpID" name="EmpID" required><br>
+    <label for="FirstName">New First Name:</label>
+      <input type="text" id="FirstName" name="FirstName" required><br><br>  
+
+    <input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+<h3>Edit Middle Name</h3>
+<form action="editmiddlename.php" method="post">
+	<label for="EmpID">Employee ID No.:</label>
+  		<input type="number" id="EmpID" name="EmpID" required><br>
+  	<label for="MiddleName">New Middle Name:</label>
+  		<input type="text" id="MiddleName" name="MiddleName" required><br><br> 	
+
+  	<input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+<h3>Edit Last Name</h3>
+<form action="editlastname.php" method="post">
+  <label for="EmpID">Employee ID No.:</label>
+      <input type="number" id="EmpID" name="EmpID" required><br>
+    <label for="LastName">New Last Name:</label>
+      <input type="text" id="LastName" name="LastName" required><br><br>  
+
+    <input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+<h3>Edit Hourly Rate</h3>
+<form action="edithourlyrate.php" method="post">
+  <label for="EmpID">Employee ID No.:</label>
+      <input type="number" id="EmpID" name="EmpID" required><br>   
+    <label for="HourlyRate">New Hourly Rate (PHP):</label>
+      <input type="number" id="HourlyRate" name="HourlyRate" required><br><br>  
+
+    <input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+</body>
+</html>
